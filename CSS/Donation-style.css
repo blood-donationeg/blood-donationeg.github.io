@@ -1,0 +1,113 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* Register Form */
+
+body {
+  background: linear-gradient(to right, #9e4141 0%, #c9adad 50%, #b67b7b 99%);
+}
+
+.signup-form {
+  font-family: "Roboto", Arial;
+  width: 650px;
+  margin: 50px auto;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #ffffff 99%);
+  border-radius: 20px;
+}
+
+/* Form Header */
+
+.form-header {
+  background-color: #eff0f1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(81, 39, 207);
+  padding: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Form Body */
+
+.form-body {
+  padding: 30px 40px;
+  color: rgb(68, 57, 57);
+}
+
+.from-group {
+  margin-bottom: 20px;
+}
+
+.form-body .label-title {
+  color: #2a2770e3;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333333;
+  text-align: left;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: white;
+  outline: none;
+}
+
+.horizontal-group .left {
+  float: left;
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+.horizontal-group .right {
+  float: right;
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+
+/* Form Footer */
+.signup-form .form-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  clear: both;
+}
+
+.form-footer span {
+  float: left;
+  margin-top: 10px;
+  color: #999;
+  font-style: italic;
+  font-weight: thin;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1b65ba;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: #bcf5e7;
+  cursor: pointer;
+}
+#female {
+  margin-left: 20px;
+}

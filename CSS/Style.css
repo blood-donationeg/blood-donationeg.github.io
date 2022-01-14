@@ -23,7 +23,7 @@
   background-color: #dee2e6;
 }
 .btnc {
-  background-color: #0b525b;
+  background-color: #ffffff;
 }
 .loc {
   background-color: #1b4332;
@@ -59,4 +59,7 @@
 .navbar a.current,
 .navbar a:hover {
   font-weight: bold;
+}
+.foot {
+  background-color: rgb(95, 0, 0);
 }

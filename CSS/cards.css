@@ -8,9 +8,10 @@
 }
 
 .ui-card {
-  border: 3px solid #1e8dc9;
-  margin-left: 20px;
-  width: 350px;
+  height: 460px;
+  border: 1px solid #912200;
+  margin-left: 10px;
+  width: 330px;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease-out;
@@ -50,7 +51,6 @@
 }
 .ui-card .description a {
   color: #fff;
-  background: #0b525b;
   display: inline-block;
   padding: 10px 25px;
   border-radius: 5px;
@@ -60,7 +60,7 @@
   transition: all 0.3s ease-out 0.4s;
 }
 .ui-card .description a:hover {
-  background: #0a83c5;
+  background: #a2a2a2;
 }
 .ui-card:hover .description h3 {
   opacity: 1;

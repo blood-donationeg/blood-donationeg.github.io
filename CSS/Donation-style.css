@@ -4,31 +4,44 @@
 /* Register Form */
 
 body {
-  background: linear-gradient(to right, #9e4141 0%, #c9adad 50%, #b67b7b 99%);
+  background: url("/Images/form.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
 }
 
 .signup-form {
   font-family: "Roboto", Arial;
   width: 650px;
-  margin: 50px auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, #ffffff 99%);
   border-radius: 20px;
+  border: 1px solid rgb(80, 0, 0);
 }
 
 /* Form Header */
 
 .form-header {
+  background: url("/Images/wave1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+
   background-color: #eff0f1;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .form-header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
   font-size: 30px;
   text-align: center;
   color: rgb(81, 39, 207);
-  padding: 30px;
-  border-bottom: 1px solid #cccccc;
+  padding-bottom: 90px;
+  padding-top: 30px;
 }
 
 /* Form Body */
@@ -44,7 +57,7 @@ body {
 
 .form-body .label-title {
   color: #2a2770e3;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
 }
 

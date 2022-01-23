@@ -119,7 +119,7 @@ var questions = [
        test.innerHTML = "<h2 style= 'color: rgb(70, 1, 102)'>Sorry, you are currently ineligible to donate.</h2>";
       }
     else if (correct = 17) {
-       test.innerHTML = "<h3 style= 'color: rgb(1, 105, 27)'>Congratulations! You should be able to give blood.</h3>";
+       test.innerHTML = "<h3 style= 'color: rgb(1, 105, 27)'>Congratulations! You should be able to give blood.</h3><br><h4>  now you should fill out the donation form </h4>";
   
         get("status").innerHTML = "Test completed";
         // resets the variable to allow user to restart the test

@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/CSS/Style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Blood Donation eg</title>
   </head>
   <body>
@@ -118,8 +119,10 @@
     <!-- Cards -->
 
     <!-- 1st row -->
-    <div class="container me-5 my-5 py-5">
-      <div class="row">
+    <div class="container me-5 my-5 py-5" data-aos="flip-up"
+    data-aos-once="false"
+    data-aos-duration="2000>
+      <div class="row" >
         <div class="col-4 bg-light mx-2" style="width: 400px">
           <img src="/Images/1.jpg" class="card-img-top" alt="first-step" />
           <div class="card-body text-center">
@@ -172,7 +175,9 @@
       </div>
     </div>
     <!-- 2nd row -->
-    <div class="container me-5 my-5 py-5">
+    <div class="container me-5 my-5 py-5" data-aos="flip-up"
+    data-aos-once="false"
+    data-aos-duration="2000>
       <div class="row">
         <div class="col-4 bg-light mx-2" style="width: 400px">
           <img src="/Images/4.jpg" class="card-img-top" alt="first-step" />
@@ -204,7 +209,9 @@
       </div>
     </div>
     <!-- 3rd row -->
-    <div class="container me-5 my-5 py-5">
+    <div class="container me-5 my-5 py-5" data-aos="flip-up"
+    data-aos-once="false"
+    data-aos-duration="2000>
       <div class="row">
         <div class="col-4 bg-light mx-2" style="width: 400px">
           <img src="/Images/7.jpg" class="card-img-top" alt="first-step" />
@@ -239,5 +246,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

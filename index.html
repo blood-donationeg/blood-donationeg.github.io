@@ -18,6 +18,7 @@
       sizes="32x32"
       href="/Images/favicon.ico.png"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Blood Donation eg</title>
   </head>
   <body>
@@ -77,7 +78,7 @@
       </div>
     </nav>
     <!-- carousel -->
-    <div class="carousel">
+    <div class="carousel" data-aos-once="false" data-aos="slide-up" data-aos-duration="2000">
       <section id="home" class="">
         <div
           id="carouselExampleIndicators"
@@ -171,7 +172,7 @@
     >
       <!-- text -->
       <div class="d-flex justify-content-between ms-5 py-5">
-        <div class="mx-3">
+        <div class="mx-3" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
           <h2 class="fw-bold mt-3">
             Are you <span class="text-success">Eligible</span> to donate blood?
           </h2>
@@ -223,19 +224,21 @@
           >
         </div>
         <!-- image -->
+        <div  data-aos="fade-left" data-aos-once="false" data-aos-duration="2000">
         <img
           style="width: 400px; height: 400px"
           class="mx-5 mt-1 d-none d-lg-inline"
           src="/Images/home2.png"
           alt="Donation impact illustration"
         />
+        </div>
       </div>
     </section>
     <!--donation section -->
     <section id="donation" class="don text-light text-center text-sm-start">
       <!-- text -->
       <div class="d-flex justify-content-between ms-5 py-5">
-        <div class="mx-3">
+        <div class="mx-3" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
           <h2 class="fw-bold mt-5 pt-3">
             Things are looking promising with your Eligibility test!
           </h2>
@@ -256,7 +259,7 @@
               />
             </svg>
           </h4>
-          <div class="container pe-5 me-5 py-2 mb-5">
+          <div class="container pe-5  py-2 mb-5">
             <h3 class="lead">
               The donation form's information are completely confidetial, and
               you are free to choose whether to be contacted when there is an
@@ -291,19 +294,21 @@
           </a>
         </div>
         <!-- image -->
+        <div  data-aos="fade-left" data-aos-once="false" data-aos-duration="2000">
         <img
           style="width: 400px; height: 400px"
           class="mx-5 mt-1 d-none d-lg-inline"
           src="/Images/Form.png"
           alt="Donation impact illustration"
         />
+        </div>
       </div>
     </section>
     <!-- location section -->
     <section id="location" class="loc text-light text-center text-sm-start">
       <!-- text -->
       <div class="d-flex justify-content-between ms-5 py-5">
-        <div class="mx-3">
+        <div class="mx-3" data-aos-once="false" data-aos="fade-right" data-aos-duration="2000">
           <h2 class="fw-bold mt-5 pt-4">It is time to make difference!</h2>
 
           <h4 class="my-4">
@@ -311,7 +316,7 @@
             time for you to find the nearest verified institute, where you can
             go through the blood donation process.
           </h4>
-          <div class="container pe-5 me-5 py-2 mb-5">
+          <div class="container  py-2 mb-5">
             <h3 class="lead">
               The donation form's information are completely confidetial, and
               you are free to choose whether to be contacted when there is an
@@ -339,12 +344,14 @@
           </a>
         </div>
         <!-- image -->
+        <div data-aos="fade-left" data-aos-once="false" data-aos-duration="2000" class="mx-0 my-0">
         <img
           style="width: 400px; height: 400px"
           class="mx-5 mt-1 d-none d-lg-inline"
           src="/Images/map.png"
           alt="Donation impact illustration"
         />
+        </div>
       </div>
     </section>
     <!--learn section  -->
@@ -360,7 +367,7 @@
       </h3>
            <!-- Cards -->
       <!-- 1st row -->
-      <div class="ms-5 me-5 ps-2 pe-2 text-dark">
+      <div class="ms-5 me-5 ps-2 pe-2 text-dark" data-aos="flip-up"  data-aos-once="false" data-aos-duration="2000">
         <div class="row py-5 justify-content-between">
           <!-- Impact -->
           <div class="ui-card">
@@ -576,5 +583,9 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

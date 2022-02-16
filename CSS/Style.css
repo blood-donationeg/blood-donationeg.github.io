@@ -13,9 +13,6 @@
   right: 650px;
   top: 300px;
 }
-.learn {
-  background-color: #3b3a3a;
-}
 .bd {
   color: rgb(150, 13, 13);
 }
@@ -26,10 +23,11 @@
   background-color: #ffffff;
 }
 .loc {
-  background-color: #1b4332;
+  /* background-color: #1b4332; */
+  background-color: rgb(241, 239, 239);
 }
 .don {
-  background-color: #9b2226;
+  /* background-color: #9b2226; */
 }
 .arabic {
   direction: rtl;
@@ -38,10 +36,13 @@
   background-color: rgb(0, 155, 155);
 }
 .carousel {
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(255, 251, 251);
 }
 #eligiblity {
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(241, 239, 239);
+}
+.eli-list {
+  font-size: 18px;
 }
 .social-icons img {
   width: 60px;
@@ -75,4 +76,8 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(124, 2, 2);
+}
+.vl {
+  border-left: 2px solid rgba(68, 68, 68, 0.418);
+  height: 28px;
 }
